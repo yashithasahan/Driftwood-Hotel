@@ -36,8 +36,17 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
-        serif: ["Georgia", "serif"],
+        sans: [
+          "Poppins",
+          "Source Sans Pro",
+          "Inter",
+          "system-ui",
+          "sans-serif",
+        ],
+        serif: ["Playfair Display", "Georgia", "serif"],
+        display: ["Playfair Display", "Georgia", "serif"],
+        script: ["SnellRoundhand", "cursive"],
+        handwriting: ["SnellRoundhand", "cursive"],
       },
       spacing: {
         18: "4.5rem",
@@ -47,7 +56,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-
-
-
